@@ -194,6 +194,7 @@ private:
     QString _portDescription;
 
     // firmware hashes
+	QHash<FirmwareIdentifier, QString> _rgPX4FMUV4PROFirmware;
     QHash<FirmwareIdentifier, QString> _rgPX4FMUV4Firmware;
     QHash<FirmwareIdentifier, QString> _rgPX4FMUV2Firmware;
     QHash<FirmwareIdentifier, QString> _rgAeroCoreFirmware;
